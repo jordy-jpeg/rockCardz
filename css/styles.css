@@ -1,20 +1,10 @@
-.card {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-  }
-  
-  /* On mouse-over, add a deeper shadow */
-  .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  
-  /* Add some padding inside the card container */
-  .container {
-    padding: 2px 16px;
-  }
+* {
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
 
-  
+
 
 @font-face {
 
@@ -24,7 +14,11 @@
   
   }
   
-  
+.card img {
+    margin:auto;
+    width: 30%;
+
+}  
   
   h4 {
   
@@ -34,7 +28,9 @@
 
 
 
-
+h1 {
+    font-family: RockFont;
+}
 
   .masthead {
 
@@ -61,4 +57,24 @@
   
     font-weight: bolder;
   
+  }
+
+  .card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 7px;
+    width: 85%;
+    margin:auto;
+    display:inline-block;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
   }
